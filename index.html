@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taş kağıt makas || dbf</title>
+    <link rel="stylesheet" href="kagit.css" type="text/css">
+
+</head>
+
+<body>
+    <img src="./allPictures/pictures/da.jpg" class="wall">
+    <div class="exit" onclick="close_menu()" id="exit"></div>
+    <div class="game" id="game">
+
+    </div>
+    <div class="rules_button" id="rules_button" onclick="open_rules()">
+        ?
+    </div>
+    <div class="rules_menu" id="rules_menu">
+        <img src="./allPictures/pictures/undo_black_24dp.svg" class="back" id="back" onclick="backPage()">
+        <div class="two_page" id="firstTwoPage">
+            <div class="page" id="first_page">
+                <div class="page_index" id="page_index" data-page="1">
+                    Page 1 out of 4
+                </div>
+                <div class="page_content">
+                    <p class="heading">What is this game?</p><br>
+                    <p>/*/*/*/*/*/</p><br>
+                    <p>/*/*/*/*/*/</p><br>
+                    <p class="TEXT">In this game you will fight with <br><br>different mobs and you will get<br><br> new
+                        armor after every your <br><br>kill.And the your main caracter<br><br> is also minecraft
+                        caracter.But<br><br> in this game fights logic based <br><br>on "Rock, Paper, Scissors" game
+                        <br><br>but it does not only depend on<br><br> your luck in this game you need <br><br>also a
+                        bit strategy.
+                    </p><br><br>
+                    <p>/*/*/*/*/*/</p><br>
+                    <p>/*/*/*/*/*/</p><br>
+
+                </div>
+            </div>
+            <div class="page" id="second_page">
+
+                <div id="page_index" class="page_index" data-page="2">
+                    Page 2 out of 4
+
+
+                </div>
+                <div class="page_content">
+                    <p class="heading">Which mobs are there in the game?</p><BR><BR>
+                    <p style="font-size: 18px;">There are 4 type of mobs</p><BR><BR>
+                    <p>/*/*/*/*/</p><BR><BR>
+
+                </div>
+                <div class="list" id="list">
+                    <div class="line">
+                        <p style="color: green;">Easy</p><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fd%2Fd6%2FZombie_Targeting.png%2Frevision%2Flatest%3Fcb%3D20200926065113&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FZombie&tbnid=7u5SoBJs9LtbmM&vet=12ahUKEwjpq9f8quXxAhUGxyoKHSd-D5EQMygAegUIARC1AQ..i&docid=0CKX2wwSfhM0-M&w=691&h=1111&q=minecraft%20zombie&ved=2ahUKEwjpq9f8quXxAhUGxyoKHSd-D5EQMygAegUIARC1AQ">Zombie</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F7%2F7a%2FLefthandedskeleton.png%2Frevision%2Flatest%3Fcb%3D20210301080603&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FSkeleton&tbnid=HHeRTvM42KKnoM&vet=12ahUKEwi797DEq-XxAhWIxCoKHfsvBPcQMygAegUIARCqAQ..i&docid=cHbLrW64deShhM&w=625&h=1024&q=minecraft%20skeleton&ved=2ahUKEwi797DEq-XxAhWIxCoKHfsvBPcQMygAegUIARCqAQ">Skeleton</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F5%2F57%2FDrowned.png%2Frevision%2Flatest%3Fcb%3D20180626144030&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FDrowned&tbnid=XGVjwVlMGOV_DM&vet=12ahUKEwjCn_LSq-XxAhUQlIsKHa5IBlsQMygAegUIARCfAQ..i&docid=fnshlcgSE_qFBM&w=480&h=785&q=minecraft%20droWNED&ved=2ahUKEwjCn_LSq-XxAhUQlIsKHa5IBlsQMygAegUIARCfAQ">Drowned</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Ff%2Ffd%2FPlains_Zombie_Villager_Base.png%2Frevision%2Flatest%2Fscale-to-width-down%2F153%3Fcb%3D20191222155440&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FZombie_Villager&tbnid=vsZ_IefMS-RszM&vet=12ahUKEwiiyebcq-XxAhUJl4sKHbSKDqEQMygAegUIARCdAQ..i&docid=xs1tlsLH-IGQHM&w=153&h=272&q=minecraft%20zombie%20villager&ved=2ahUKEwiiyebcq-XxAhUJl4sKHbSKDqEQMygAegUIARCdAQ">Zombie
+                            vill</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fe%2Fe4%2FHusk_JE2_BE2.png%2Frevision%2Flatest%3Fcb%3D20190510101810&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FHusk&tbnid=y9L5NdwkM7vceM&vet=12ahUKEwjslKLmq-XxAhWOxosKHZkGCMEQMygAegUIARCmAQ..i&docid=0IJTWvYl7CGY3M&w=379&h=631&q=minecraft%20HUSK&ved=2ahUKEwjslKLmq-XxAhWOxosKHZkGCMEQMygAegUIARCmAQ">Husk</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F9%2F99%2FStray_JE1_BE3.png%2Frevision%2Flatest%3Fcb%3D20191001175109&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FStray&tbnid=AujfsiexI6TYTM&vet=12ahUKEwiA5eTuq-XxAhUnposKHW7hAZsQMygAegUIARCWAQ..i&docid=fVvsuqvELrMVlM&w=661&h=1024&q=minecraft%20stary&ved=2ahUKEwiA5eTuq-XxAhUnposKHW7hAZsQMygAegUIARCWAQ">Stray</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F1%2F1f%2FSpider_JE4_BE3.png%2Frevision%2Flatest%3Fcb%3D20200108012105&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FSpider&tbnid=RPJgwkqyaCsHqM&vet=12ahUKEwiUvJygrOXxAhVFxSoKHTjZD9UQMygAegUIARClAQ..i&docid=Kye5HcnLo_H5AM&w=1151&h=900&q=minecraft%20spider&ved=2ahUKEwiUvJygrOXxAhVFxSoKHTjZD9UQMygAegUIARClAQ">Spider</a>
+
+
+                    </div>
+                    <div class="line">
+                        <p style="color: rgb(197, 197, 0);">Normal</p><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fen%2F4%2F49%2FCreeper_%2528Minecraft%2529.png&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCreeper_(Minecraft)&tbnid=jRA_nfGpkrnQnM&vet=12ahUKEwjWqr-9rOXxAhVvmIsKHQrsAscQMygAegUIARDDAQ..i&docid=ZF1kghr8LRA2MM&w=221&h=452&q=minecraft%20creeper&ved=2ahUKEwjWqr-9rOXxAhVvmIsKHQrsAscQMygAegUIARDDAQ">Creeper</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F0%2F00%2FHoglin_JE2.png%2Frevision%2Flatest%3Fcb%3D20210421141226&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FHoglin&tbnid=mRnXKyS8APxrcM&vet=12ahUKEwj60JnRrOXxAhXQvSoKHZVdD_oQMygAegUIARCdAQ..i&docid=Aiq1eVnOjgthlM&w=1073&h=937&q=minecraft%20hoglin&ved=2ahUKEwj60JnRrOXxAhXQvSoKHZVdD_oQMygAegUIARCdAQ">Hoglin</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F4%2F4f%2FGhast_shooting_JE1_BE1.png%2Frevision%2Flatest%3Fcb%3D20201108223645&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FGhast&tbnid=Fx99mBPI7OSUqM&vet=12ahUKEwjy1I2creXxAhUDuIsKHRMxC8EQMygAegUIARCnAQ..i&docid=N3ZyO09uC1EAcM&w=811&h=1023&q=minecraf%20ghast&ved=2ahUKEwjy1I2creXxAhUDuIsKHRMxC8EQMygAegUIARCnAQ">Ghast</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fe%2Fe3%2FZoglin.png%2Frevision%2Flatest%3Fcb%3D20200402195611&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FZoglin&tbnid=R3T_YR88bP7K1M&vet=12ahUKEwiMl73rrOXxAhVCAXcKHRLvD8MQMygAegUIARCdAQ..i&docid=GcyGngys2AdK-M&w=1359&h=1175&q=minecraf%20zoglin&ved=2ahUKEwiMl73rrOXxAhVCAXcKHRLvD8MQMygAegUIARCdAQ">Zoglin</a><br>
+
+                    </div>
+                    <div class="line">
+                        <p style="color: red;">Hard</p><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F4%2F48%2FPiglin_Brute_attacking.png%2Frevision%2Flatest%2Fscale-to-width-down%2F907%3Fcb%3D20210112035102&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FPiglin_Brute&tbnid=AJlZYuxdtQ8BqM&vet=12ahUKEwi39c7PreXxAhVBtCoKHWwCB_AQMygAegUIARCYAQ..i&docid=cdemwH6PavnCYM&w=907&h=1450&q=minecraf%20piglin%20brut&ved=2ahUKEwi39c7PreXxAhVBtCoKHWwCB_AQMygAegUIARCYAQ">Piglin
+                            Brut</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F7%2F76%2FPiglin_Attacking_with_melee_weapon.png%2Frevision%2Flatest%3Fcb%3D20200531214111&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FPiglin&tbnid=zuuHqqTZxH4o5M&vet=12ahUKEwiRiM69reXxAhUNB3cKHa_NAtAQMygAegUIARCdAQ..i&docid=yE3j-ewBXhWYoM&w=520&h=800&q=minecraf%20piglin&ved=2ahUKEwiRiM69reXxAhUNB3cKHa_NAtAQMygAegUIARCdAQ">Piglin</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F6%2F67%2FWitch_drinking_potion_14w29a.png%2Frevision%2Flatest%3Fcb%3D20191130035816&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FWitch&tbnid=8_9cykRSQ9qpvM&vet=12ahUKEwiFwKznreXxAhXLxSoKHUN3CKgQMygAegUIARCjAQ..i&docid=UMUa0GZYd49awM&w=300&h=700&q=minecraf%20witch&ved=2ahUKEwiFwKznreXxAhXLxSoKHUN3CKgQMygAegUIARCjAQ">Witch</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F1%2F1b%2FPillager_JE2.png%2Frevision%2Flatest%3Fcb%3D20200826064528&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FPillager&tbnid=36HaXBMGEKkHUM&vet=12ahUKEwiVov3pruXxAhWHqIsKHQ9GDNEQMygAegUIARCpAQ..i&docid=-wVrs-xKbXcQiM&w=788&h=1050&q=minecraft%20pillager&ved=2ahUKEwiVov3pruXxAhWHqIsKHQ9GDNEQMygAegUIARCpAQ">Pillager</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft%2Fimages%2Fb%2Fba%2FMagmaCube.png%2Frevision%2Flatest%3Fcb%3D20190905234941&imgrefurl=https%3A%2F%2Fminecraft-archive.fandom.com%2Fwiki%2FMagma_Cube&tbnid=7B80bx8cpmxgAM&vet=12ahUKEwixjo6MruXxAhWYB3cKHZULBs0QMygAegUIARCXAQ..i&docid=82-5OBQxB6dYwM&w=800&h=800&q=minecraf%20magma%20cube&ved=2ahUKEwixjo6MruXxAhWYB3cKHZULBs0QMygAegUIARCXAQ">Magma
+                            Cube</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fc%2Fc6%2FVindicator_attacking.png%2Frevision%2Flatest%2Fscale-to-width-down%2F159%3Fcb%3D20191230043756&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FVindicator&tbnid=x-NGqUjpDJTENM&vet=12ahUKEwiDx979ruXxAhVIuCoKHSsjDt0QMygAegUIARCkAQ..i&docid=ibqRWJT4h4UKnM&w=159&h=271&q=%09Vindicator%09&ved=2ahUKEwiDx979ruXxAhVIuCoKHSsjDt0QMygAegUIARCkAQ">Vindica.</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fc%2Fcd%2FWither_Skeleton.png%2Frevision%2Flatest%3Fcb%3D20191229162539&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FWither_Skeleton&tbnid=fiJ74iU790jWsM&vet=12ahUKEwjWvuOXr-XxAhWSsSoKHWHACHEQMygAegUIARCcAQ..i&docid=iW-dnNkqn09TlM&w=960&h=1420&q=wither%20skeleton&ved=2ahUKEwjWvuOXr-XxAhWSsSoKHWHACHEQMygAegUIARCcAQ">Wither
+                            sk.</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2F0%2F06%2FShulker.png%2Frevision%2Flatest%3Fcb%3D20200107095352&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FShulker&tbnid=mEwQi9xK2QiMhM&vet=12ahUKEwiftKa7r-XxAhWQtyoKHdSLBwQQMygAegUIARCdAQ..i&docid=3nUpzXHrwGRHNM&w=300&h=464&q=%20shulker&ved=2ahUKEwiftKa7r-XxAhWQtyoKHdSLBwQQMygAegUIARCdAQ">Shulker</a><br>
+
+                    </div>
+                    <div class="line">
+                        <p style="color:rgb(102, 0, 0)">Boss</p><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft%2Fimages%2F5%2F5a%2FEnder_Dragon.png%2Frevision%2Flatest%3Fcb%3D20191024013821&imgrefurl=https%3A%2F%2Fminecraft-archive.fandom.com%2Fwiki%2FEnder_Dragon&tbnid=wGww587bJUsaGM&vet=12ahUKEwiH3YC3sOXxAhVOxyoKHWikACEQMygBegUIARCuAQ..i&docid=DSrh8nNTmIkGAM&w=1839&h=1118&q=ender%20dragon&ved=2ahUKEwiH3YC3sOXxAhVOxyoKHWikACEQMygBegUIARCuAQ">Ender
+                            Dragon</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft_gamepedia%2Fimages%2Fa%2Faa%2FWither.png%2Frevision%2Flatest%3Fcb%3D20191229161710&imgrefurl=https%3A%2F%2Fminecraft.fandom.com%2Fwiki%2FWither&tbnid=zOKPwLQqU4qlgM&vet=12ahUKEwikvdHCsOXxAhVNyCoKHQZzC38QMygAegUIARCiAQ..i&docid=aapmG8O_2dsU1M&w=1080&h=1080&itg=1&q=wither&ved=2ahUKEwikvdHCsOXxAhVNyCoKHQZzC38QMygAegUIARCiAQ">Wither</a><br>
+                        <a
+                            href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fminecraft%2Fimages%2Fe%2Fe1%2FWarden_glowing_soul_heart.gif%2Frevision%2Flatest%3Fcb%3D20201209225712&imgrefurl=https%3A%2F%2Fminecraft-archive.fandom.com%2Fwiki%2FWarden&tbnid=QJtpexviWbpquM&vet=12ahUKEwiq0rqtsOXxAhWVvSoKHUFfCLUQMygAegUIARCcAQ..i&docid=u26zkySDfb5QwM&w=500&h=800&q=warden&ved=2ahUKEwiq0rqtsOXxAhWVvSoKHUFfCLUQMygAegUIARCcAQ">Warden</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="two_page" id="secondTwoPage">
+            <div class="page" id="third_page">
+
+                <div id="page_index" class="page_index" data-page="2">
+                    Page 3 out of 4
+
+
+                </div>
+                <div class="page_content">
+                    <p class="heading">Game Logic</p><BR><BR>
+                    <p>/*/*/*/*/</p><BR><BR>
+                    <p>/*/*/*/*/</p><BR>
+                    <p style="margin-right: 10px; font-size: 15px;line-height: 1.5;">In this game you have 3 attack
+                        types and also mob has.After you select your attack type, mob select itself attack type and if
+                        its attack is more powerfull than yours you loos your armor's some part.After all your armor is
+                        broken,if mob defeated you one more time you would die.But if youdefeat mob you get one part of
+                        your armor and after you kill mob your rival changes and your aim to kill all mobs which mobs
+                        are Boss type. </p>
+
+
+                </div>
+            </div>
+            <div class="page" id="fourth_page">
+                <div id="page_index" class="page_index">
+                    Page 4 out of 4
+                </div>
+                <div class="page_content">
+                    <p class="heading">Notes</p><br><br>
+                    <p>/*/*/*/*/</p><BR><BR>
+                    <p>/*/*/*/*/</p><BR>
+                    <p style="font-size: 13px;line-height: 1.5;">1.Resistance power comes when you are level 3.</p><br><br>
+                    <p style="font-size: 13px;line-height: 1.5;">2.For fighting with ender dragon become level 10</p>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <img class="next" id="next" onclick="nextPage()" src="./allPictures/pictures/redo_black_18dp.svg">
+    </div>
+    <div class="header" id="header">
+
+        <img src="./allPictures/pictures/minecraftlogo.png" class="logo">
+        <h1>Rock&Paper&Scissors Edition</h1>
+    </div>
+    <div class="form" id="form">
+        <input type="text" id="input" class="input" placeholder="UserName">
+
+        <button class="start" id="start" onclick="startGame()">Play Game</button>
+        <button class="start" id="open" onclick="open_rules()">Settings</button>
+        <button class="start" id="highScoreList" onclick="alert('I cant do that becouse of error....it doesnt work')">High Score List</button>
+    </div>
+    <div class="game_screen" id="game_screen">
+        <button class="skip" id="skip" onclick="skipaa()">Skip</button>
+        <div class="endingScreen" id="endingScreen">
+
+            <div class="header" id="header" style="margin-top: 70vh;position: relative;">
+
+                <img src="./allPictures/pictures/minecraftlogo.png" class="logo">
+                <h1>Rock&Paper&Scissors Edition</h1>
+            </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">I see the player you mean</p><br><br><br><br><br>
+            <p id="userNameEnd" style="color: rgb(0, 180, 0);">Firuz?</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Yes.Take care.It has reached a higher level now.<br><br>It can read our
+                thoughts</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">That doesn't matter. It thinks we are part of the game</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">I like this player. It played well. It did not give up</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">It is reading our thought as though they were words on screen</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">That is how it chooses to imagine many things,when it <br><br>is deep in
+                the dream of game.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Firstly thank this player for spending its time <br><br>for this game</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">What did this player dream?</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">This player dreamed of sunlight and trees.Of fire<br><br>and water. It
+                dreamed creating. And it dreamed <br><br>destroying. It dreamed hunting,and it was hunted.It<br><br>
+                dreamed of shelter</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">But in this edition it only hunted and was hunted.</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">It cannot read that thought.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">There is skip button but dont skip</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">No. It has not yet achieved the highest level.That, it<br><br>must
+                achieve in the long drea of life,not the short<br><br>dream of a game</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Does it know that we love it? That the universe is<br><br>kind?</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Sometimes when they are deep in dreams. I want to tell<br><br>them, they
+                are building true worldss in reality.<br><br>Sometimes I want to tell them of their importance
+                to<br><br> the universe. Sometimes, when they have not made a <br><br>true connection in a while.I want
+                to help them to <br><br>speak the world they fear.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">And yet they play the game.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">But it would be so eaasy to tell them...</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Too strong for this dream. To tell them how to live is<br><br>to prevent
+                them living</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">I will not tell the player how to live.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">I will tell player a story</p><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">But not the truth.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">No.A story that contains the truth safely,in a cage <br><br>of wwords.Not
+                the naked truth that can burn over any <br><br>distance.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Give it a body again</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Yes.Player...</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Use its name.</p><br><br><br><br><br>
+            <p id="userNameEnding2" style="color: rgb(0, 180, 0);">Firuz. Player of games.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Good.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Who we are?We are the demons,we are the mountins,<br><br>we are angels.We
+                are everythink.We are universe.<br><br>The universe which you love.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">But the universe of this game this code line this computer</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">Everythink you read is the part of this code</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">But it was the dream.Drea of this universe.And...</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">You are the player in this universe.You are the part of this universe</p>
+            <br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">You are a player.</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);" id="usernameEnd3">Firuz..</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">It was your dream and everythink was the part of your dream<br><br>But
+                it is end.<br><br>No.It is not absolutly end.Becouse it is your dream.It will continue untill you wake
+                up</p><br><br><br><br><br>
+            <p style="color: rgb(0, 180, 0);">And it is time for wake up</p><br><br><br><br><br>
+            <p style="color: rgb(0, 140, 158);">Wake Up</p>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="creators">
+                <p style="color: white;">================</p><br><br><br><br>
+                <p>Creator</p><br><br><br><br>
+                <p>Dbf</p><br><br><br><br>
+                <p>==Code/logic==</p><br><br><br><br>
+                <p>Me</p>
+                <p>=============</p>
+                <p>=============</p>
+                <p>=============</p>
+                <p>=============</p>
+                <p>Dbf</p>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="levelUp" id="levelUp">
+            <h1>Level<br>Up</h1>
+            <img src="./allPictures/pictures/boost.png" class="boost"><br>
+            <p class="newSpec" id="newAttack">+2 Attack</p><br>
+            <p class="newSpec" id="newHealth">+3 Max Health</p><br><br><br>
+            <button class="ok" id="ok" onclick="ok()">Ok</button>
+        </div>
+        <div class="notification" id="notification">
+            <p id="notificationContex">Save End</p>
+        </div>
+        <div class="blurEffect" id="blurEffect"></div>
+        <div class="winningEachMob" id="winningEachMob">
+
+            <h1 class="winningHeader" id="winningHeader">Winner!</h1><br>
+            <h1 class="defeated" id="defeated">You defeated</h1><br>
+            <h1 id="mobName">Zombie</h1><br><br><br><br><br>
+            <p id="LeftKillsToNextLevel">5 kills left to next Level</p><br>
+
+            <button class="nextMobButton" id="nextMobButton" onclick="nextMob()">Next Fight</button><br>
+            <button class="save" id="save">Save Score</button><br>
+            <button class="homeScreen" id="homeScreen">Home Screen</button>
+
+
+        </div>
+        <div class="loosing" id="loosing">
+
+            <h1 class="loosingHeader" id="loosingHeader">Oppsss...</h1><br>
+            <h1 class="mobasa" id="mobasa">You were defeated by</h1><br>
+            <h1 id="defeatedby">Zombie</h1><br><br><br><br><br>
+
+
+
+            <button class="save" id="save">Save Score</button><br>
+            <button class="homeScreen" id="homeScreenLoos" onclick="location.reload()">Home Screen</button>
+
+
+        </div>
+        <div id="levelbox">
+            <h1 id="level">Level</h1>
+            <h1 id="levelIndex">1</h1>
+        </div>
+        <img src="./allPictures/pictures/as.gif" class="moon">
+        <img src="./allPictures/pictures/clouds.png" class="clouds">
+
+        <img src="./allPictures/pictures/dirt.jpg" class="under">
+        <div class="gameMainContiner">
+            <div class="gameMainContinerFightArea" id="gameMainContinerFightArea">
+                <div class="steveArea" id="steveArea">
+
+                    <div class="specialpowers" id="specialpowers">
+                        <div class="resistancecontainer" id="resistancecontainer" onclick="resistancefunc()"><img
+                                src="./allPictures/pictures/icons/resistance_sm.png" id="resistance">
+                            <p id="resistanceIndex">3</p>   
+                        </div>
+
+                        <div class="healtboostcontainer" id="healtboostcontainer" onclick="healthboostfunc()"><img
+                                src="./allPictures/pictures/icons/health_boost_sm.png" id="healthBoost">
+                            <p id="healthBoostIndex">3</p>
+                        </div>
+                        <div class="strenghtcontainer" id="strenghtcontainer" onclick="strenghtfunc()"><img
+                                src="./allPictures/pictures/icons/strength_sm.png" id="strenght">
+                            <p id="strenghtIndex">3</p>
+                        </div>
+                    </div>
+                    <div class="playerHealth">
+                        <p id="playerHealthIndex">100</p>
+                        <div class="playerHealthRedArea">
+
+                        </div>
+                    </div>
+                    <div class="innerSteve">
+                        <div class="armors" id="armors">
+                            <div class="armor" id="helmet">
+                                <img src="./allPictures/minimalsets/diamond/helmetdia.gif" id="diamondHelmet">
+                                <img src="./allPictures/minimalsets/deri/helmetleaather.png" id="leatherHelmet">
+
+
+                            </div>
+                            <div class="armor" id="chestplate">
+                                <img src="./allPictures/minimalsets/diamond/chestplatedia.gif" id="diamondChestplate">
+                                <img src="./allPictures/minimalsets/deri/chestplateleather.png" id="leatherChestplate">
+                            </div>
+                            <div class="armor" id="legging">
+                                <img src="./allPictures/minimalsets/diamond/legging dia.gif" id="diamondLegging">
+                                <img src="./allPictures/minimalsets/deri/leggingleather.png" id="leatherLegging">
+                            </div>
+                            <div class="armor" id="boots">
+                                <img src="./allPictures/minimalsets/diamond/bootsdia.gif" id="diamondBoots">
+                                <img src="./allPictures/minimalsets/deri/bootsleather.png" id="leatherBoots">
+                            </div>
+                            <div class="armor" id="qalxan">
+                                <img src="./allPictures/minimalsets/shield].png" id="shield">
+
+                            </div>
+                        </div>
+                        <div class="imagesteve" id="imagesteve">
+                            <img src="./allPictures/armor/normal.png">
+
+                        </div>
+                    </div>
+                    <div class="tas" id="tas">
+                        <div class="stone" id="stoneButton">
+                            <img src="./allPictures/pictures/Stone.png" onclick="stoneSelected()">
+                        </div>
+                        <div class="paper" id="paperButton">
+                            <img src="./allPictures/pictures/PAPER.png" onclick="paperSelected()">
+                        </div>
+                        <div class="scissors" id="scissorsButton">
+                            <img src="./allPictures/pictures/scissors.png" onclick="scissorsSelected()">
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="mob_area" id="mob_area">
+                    <div class="hearts" id="hearts">
+                        <p class="health" id="health">100</p>
+                        <div class="innerHeart"></div>
+
+
+
+                    </div>
+                    <div class="mob_image" id="mob_image">
+
+                    </div>
+                    <div class="snippet" data-title=".dot-falling" id="snippet">
+                        <div class="stage" id="stage">
+                            <div class="dot-falling"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="controlls" id="controlls">
+
+
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+    <script src="makas.js"></script>
+</body>
+
+</html>
