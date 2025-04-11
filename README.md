@@ -1,3 +1,5 @@
 # rsp-minecraft
-I made the rsp game.But you play with minecrat mobs.I get special powers after every level when you become level 10 you fight wuth enderdragon. it all made with javascript css and html
-and here is link - https://minecraft-rps-dbf.netlify.app/
+Simple web game made using vanilla hftml, css and js. 
+
+----About the game-----
+Main mechanics is rock, paper and scissors, and you play it against different Minecraft mobs. Target is to kill the final boss, Ender Dragon. During the gameplay, you will be able to improve your stats and mobs will get harder and harder to kill.
